@@ -3,10 +3,10 @@ body {
     background-color: rgb(250, 223, 227);
     margin-top: 100px;
     background-image: url("../Imagenes/Mibebe.jpeg");
-    background-size: contain;
+    background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:scroll;
     font-family: Arial, sans-serif;
 }
 
