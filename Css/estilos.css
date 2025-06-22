@@ -1,0 +1,42 @@
+
+body{
+    text-align: center;
+    background-color: rgb(250, 223, 227);
+    margin-top: 100px;
+    background-image: url("../Imagenes/Mibebe.jpeg");
+    background-size:100px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+
+
+}
+
+.carta {
+    background-color: pink;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+
+}
+
+.carta:hover {
+    transform: scale(1.05);
+}
+
+.mensaje-oculto{
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 2px dashed pink;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+}
