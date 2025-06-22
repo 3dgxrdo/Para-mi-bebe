@@ -1,3 +1,5 @@
-function abrirCarta(){
-    document.getElementById("mensaje").style.display = "block";
+function abrirCarta() {
+    const mensaje = document.getElementById("mensaje");
+    mensaje.classList.add("mostrar");
 }
+
